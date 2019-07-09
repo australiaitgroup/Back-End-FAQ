@@ -1,3 +1,5 @@
+For [Front End FAQ](https://github.com/australiaitgroup/Front-End-FAQ).
+
 ## Java
 
 ## .Net
@@ -135,8 +137,20 @@ We can take advantage of File System `watch()` function which watches the change
 * https://www.codingdefined.com/2017/04/top-20-interview-questions-on-nodejs.html
 </details>
 
- 
+<details>
+<summary>What is the event loop in Node.js?</summary>
 
+The event loop handles all async callbacks. Callbacks are queued in a loop, while other code runs, and will run one by one when the response for each one has been received.
+
+#### Good to hear
+
+* The event loop allows Node.js to perform non-blocking I/O operations, despite the fact that JavaScript is single-threaded
+
+##### Additional Links
+
+* [Node.js docs on event loop, timers and process.nextTick()](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/)
+
+</details>
 
 <details>
 <summary>Could we run an external process with Node.js?
@@ -1343,3 +1357,11 @@ node --max-old-space-size=1024 file.js
 * https://www.codingdefined.com/2017/04/top-20-interview-questions-on-nodejs.html
 
 </details>
+
+
+## Australia IT Professional Community
+
+[JR Academy | Official Website](https://jiangren.com.au).
+[Sydney JR Academy | Code bootcamp](https://jiangren.com.au/city/sydney).
+[Melbourne JR Academy | Code bootcamp](https://jiangren.com.au/city/melbourne).
+[Brisbane JR Academy | Code bootcamp](https://jiangren.com.au/city/brisbane).
